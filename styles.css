@@ -1,0 +1,54 @@
+/* Use this for header fonts font-family: 'Roboto Mono', monospace; */
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    margin: 10px;
+    color: #616161;
+    font-size: 25px;
+}
+
+header {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header nav {
+    border-bottom: 1px solid;
+    border-color: #d4a405;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: #616161;
+}
+
+a:link {
+    color: #616161;
+}
+
+a:hover {
+    color: #d4a405;
+}
+
+header img {
+    width: 40%;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+body .feature-text {
+    font-family: 'Roboto Mono', monospace;
+    color: #d4a405;
+}
+
+footer {
+    border-top: 1px solid;
+    border-color: #d4a405;
+    text-align: center;
+}

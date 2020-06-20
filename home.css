@@ -1,0 +1,107 @@
+body #bio {
+    margin: 20px
+}
+
+body #bio .bio-section h2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body #bio #bio-intro {
+    border-bottom: 1px solid;
+    border-color: #d4a405;
+    text-align: center;
+}
+
+body #bio #bio-intro p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bio-section {
+    display: flex;
+}
+
+.tile {
+    width: 40%;
+    object-fit: contain;
+}
+
+.bio-text {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    justify-content: center;
+}
+
+#bio-scientist{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#bio-scientist .bio-text {
+    text-align: right;
+    align-items: flex-end;
+}
+
+body #my-work {
+    border-top: 1px solid;
+    border-color: #d4a405;
+    margin: 20px;
+}
+
+
+#my-work {
+    text-align: center;
+}
+
+.portfolio-tile {
+    width: 45%;
+}
+
+@media (max-width: 900px) {
+    html {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .bio-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    #bio-scientist {
+        flex-direction: column;
+    }
+
+    .bio-text {
+        text-align: center;
+        align-items: center;
+    }
+
+    #bio-scientist .bio-text {
+        text-align: center;
+        align-items: center;
+    }
+    #portfolio-imgs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #portfolio-imgs .portfolio-tile {
+        width: 80%;
+    }
+}
