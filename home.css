@@ -1,6 +1,11 @@
 
 body #bio {
-    margin: 20px
+    margin: 20px;
+}
+
+body header img {
+    padding-top: 2%;
+    width: 60%;
 }
 
 body #bio .bio-section h2 {
