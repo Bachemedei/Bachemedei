@@ -52,3 +52,17 @@ footer {
     border-color: #d4a405;
     text-align: center;
 }
+
+#socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#linkedin {
+    width: 20px;
+}
+
+#github {
+    width: 30px;
+}

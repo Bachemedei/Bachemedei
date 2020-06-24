@@ -115,4 +115,10 @@ form {
     form {
         width: 80%;
     }
+    #linkedin {
+        width: 10px;
+    }
+    #github {
+        width: 15px;
+    }
 }
