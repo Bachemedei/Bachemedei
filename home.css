@@ -106,11 +106,24 @@ body #my-work {
     object-fit: scale-down;
 }
 
+.portfolio-img .details h2 {
+    margin-bottom: 5px;
+}
+
 #project-2 { 
     border: 1px solid;
     border-color: #d4a405;
 }
 
+@media (max-width: 1200px) {
+    .portfolio-img .details h2 {
+        font-size: 40px;
+    }
+
+    .portfolio-img .details p {
+        font-size: 12px;
+    }
+}
 
 @media (max-width: 900px) {
     html {
@@ -119,6 +132,14 @@ body #my-work {
 
     h2 {
         font-size: 25px;
+    }
+
+    .portfolio-img .details h2 {
+        font-size: 20px;
+    }
+
+    .portfolio-img .details p {
+        font-size: 12px;
     }
 }
 
@@ -130,6 +151,15 @@ body #my-work {
     h2 {
         font-size: 20px;
     }
+
+    .portfolio-img .details h2 {
+        font-size: 15px;
+    }
+
+    .portfolio-img .details p {
+        font-size: 10px;
+    }
+    
 }
 
 @media (max-width: 480px) {
@@ -155,6 +185,14 @@ body #my-work {
         flex-direction: column;
         align-items: center;
     }
+    .portfolio-img .details h2 {
+        font-size: 20px;
+    }
+
+    .portfolio-img .details p {
+        font-size: 12px;
+    }
+
     #linkedin {
         width: 10px;
     }
