@@ -110,10 +110,6 @@ body #my-work {
     margin-bottom: 5px;
 }
 
-#project-2 { 
-    border: 1px solid;
-    border-color: #d4a405;
-}
 
 @media (max-width: 1200px) {
     .portfolio-img .details h2 {
